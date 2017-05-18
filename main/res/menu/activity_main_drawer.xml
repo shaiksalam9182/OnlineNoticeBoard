@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home2"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_puc1"
+            android:icon="@drawable/puc"
+            android:title="Puc-1" />
+<item
+            android:id="@+id/nav_puc2"
+            android:icon="@drawable/puc"
+            android:title="Puc-2"/>
+<item
+            android:id="@+id/nav_engg1"
+            android:icon="@drawable/e1"
+            android:title="Engg-1" />
+<item
+            android:id="@+id/nav_engg2"
+            android:icon="@drawable/e2"
+            android:title="Engg-2" />
+<item
+            android:id="@+id/nav_engg3"
+            android:icon="@drawable/e3"
+            android:title="Engg-3" />
+<item
+            android:id="@+id/nav_engg4"
+            android:icon="@drawable/e4"
+            android:title="Engg-4" />
+
+
+
+    </group>
+
+<item android:title="Communicate">
+    <menu>
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/support"
+            android:title="Supported By" />
+    </menu>
+</item>
+
+
+</menu>
